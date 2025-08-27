@@ -20,12 +20,18 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="data">
+			<Node name="{1cb9cbb9-76cf-4c98-a0a8-0310a0849d3a}">
+				<Prp name="relpath" type="S" value="Apredizado\Apredizado.mds.tcLS"/>
+			</Node>
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{1CB9CBB9-76CF-4C98-A0A8-0310A0849D3A}"/>
+			</Node>
 			<Node name="logs">
-				<Prp name="key" type="S" value="{20F1AA15-F373-468F-BEF8-4CE8525F7B4E}"/>
+				<Prp name="key" type="S" value="{AE5DD3EC-02C7-4244-A23A-D5B927A01ECE}"/>
 				<Prp name="relpath" type="S" value="Log"/>
 			</Node>
 			<Node name="variables"/>
 		</Node>
-		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
 	</Node>
 </Nodes>
