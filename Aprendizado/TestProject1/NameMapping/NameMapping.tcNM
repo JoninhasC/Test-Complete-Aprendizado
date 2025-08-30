@@ -203,6 +203,50 @@
 							</Child>
 						</Children>
 					</Child>
+					<Child Name="ProssNotepad" Key="{81AE884E-393C-458F-BCB9-42B1C8C9F08C}">
+						<TypeInfo Item0="{C2634B64-9D6E-4585-9BF2-76F3A0E2B199}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Notepad" />
+							</Property>
+							<Property Name="Index">
+								<Value Value="1" Type="0" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="MainWindNotepad" Key="{515F9DB1-4649-49D2-B475-066F37C96B37}">
+								<Image FileName="171552705" Left="0" Top="0" Right="1920" Bottom="1023" />
+								<TypeInfo Item0="{3FDB796C-2CB7-4E4F-9E52-9003038F0F15}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Notepad" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="BoxNotepad" Key="{C92EE1E5-4562-46B9-B072-AFC17B4D8D5F}">
+										<Image FileName="-156831760" Left="6" Top="75" Right="1914" Bottom="985" />
+										<TypeInfo Item0="{E3FD3997-3A39-45EE-AF58-07CD2BBC1474}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="NotepadTextBox" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="EditNotepad" Key="{05A45E4A-B1EF-45E7-9248-E9990D502E2C}">
+												<Image FileName="1584416430" Left="6" Top="75" Right="1914" Bottom="985" />
+												<TypeInfo Item0="{D0630C96-7644-4CA4-9D55-5A3D114547D3}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="RichEditD2DPT" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
 				</Children>
 			</Child>
 		</Children>
@@ -234,6 +278,13 @@
 				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{6941B78C-018C-4D8B-B119-EF568EBD7E1E}" />
 			</Child>
 			<Child Name="wndChrome_WidgetWin_12" Owner="{12F1CF3E-5486-42F7-9B53-7E8D519E915E}" />
+		</Child>
+		<Child Name="ProssNotepad" Owner="{81AE884E-393C-458F-BCB9-42B1C8C9F08C}">
+			<Child Name="MainWindNotepad" Owner="{515F9DB1-4649-49D2-B475-066F37C96B37}">
+				<Child Name="BoxNotepad" Owner="{C92EE1E5-4562-46B9-B072-AFC17B4D8D5F}">
+					<Child Name="EditNotepad" Owner="{05A45E4A-B1EF-45E7-9248-E9990D502E2C}" />
+				</Child>
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>

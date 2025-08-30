@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="Unit2" key="{62C3B35F-398C-407F-8434-39B7B01973E1}" path="Unit2.js" />
+		<child name="Aprendendo" key="{62C3B35F-398C-407F-8434-39B7B01973E1}" path="Aprendendo.js" />
+		<child name="BlocoNotas" key="{BE6A2741-57BC-41B6-8506-F909A5150645}" path="BlocoNotas.js" />
 	</children>
 </Root>
