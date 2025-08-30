@@ -1,8 +1,41 @@
-﻿function  teste (){
+﻿/*function  teste (){
   // Escreve um frase no bloco de notas apenas se o bloco de notas estiver aberto
   //Sys.Process("Notepad").Window("Notepad", "* Sem título - Bloco de notas", 1).Window("NotepadTextBox", "", 1).Window("RichEditD2DPT", "", 1).wText = "Escrevendo no bloco de notas"
   
   NameMapping.Sys.ProssNotepad.MainWindNotepad.BoxNotepad.EditNotepad.wText = "Realizando a escrita no notepad vazio pelo Name Mapping"
   
-}
+}*/
+function ReadNotepadText() {
+  // Launch Notepad
+  var p = Sys.Process("notepad", 3000); 
+  if (!p.Exists) {
+    // If Notepad is not running, launch it.
+    TestedApps.notepad.Run();
+    p = Sys.WaitProcess("notepad", 3000); 
+  }
 
+  if (p.Exists) {
+    // Get the Notepad window.
+    var wndNotepad = p.WaitWindow("Notepad", "*", 1, 3000); 
+    if (wndNotepad.Exists) {
+      // Recognize the text in the Notepad window.
+      var recognizedText = OCR.Recognize(wndNotepad); 
+
+      // Post the full recognized text to the test log.
+      Log.Message("Text in Notepad:", recognizedText.FullText);
+
+      // Optionally, iterate and log text blocks.
+      if (recognizedText.BlockCount > 0) {
+        Log.AppendFolder("Recognized text by blocks");
+        for (var i = 0; i < recognizedText.BlockCount; i++) {
+          Log.Message("Block " + i + ": " + recognizedText.Block(i).Text);
+        }
+        Log.PopLogFolder();
+      }
+    } else {
+      Log.Error("Notepad window not found.");
+    }
+  } else {
+    Log.Error("Notepad process not found or launched.");
+  }
+}

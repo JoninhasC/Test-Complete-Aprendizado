@@ -23,29 +23,11 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45899.8032991435"/>
+				<Prp name="datetime" type="D" value="45899.8231042245"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{8EBD01EE-CCD5-4FCE-BD9D-92D469EC1A78}"/>
+				<Prp name="key" type="S" value="{ED800D18-E676-4D21-84AE-A0CBE7560832}"/>
 				<Prp name="nameofroot" type="S" value="Script Test Log [BlocoNotas\teste]"/>
-				<Prp name="relpath" type="S" value="30_08_2025_19_16_45_46\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0001">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45899.8035172106"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{D813F4FE-C8AC-45FA-804C-EA967AE7F27E}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [BlocoNotas\teste]"/>
-				<Prp name="relpath" type="S" value="30_08_2025_19_17_03_887\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0002">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45899.8036222569"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{1DCF3882-AAEB-4566-ABF1-F3DD09CF54B5}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [BlocoNotas\teste]"/>
-				<Prp name="relpath" type="S" value="30_08_2025_19_17_12_963\Description.tcLog"/>
+				<Prp name="relpath" type="S" value="30_08_2025_19_45_16_205\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 		</Node>
