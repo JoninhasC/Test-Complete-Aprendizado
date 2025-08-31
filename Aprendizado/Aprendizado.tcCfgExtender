@@ -23,7 +23,11 @@
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
 				<Prp name="activity" type="S" value="{34C84D90-EBB9-4910-A0F8-673A54DF4896}"/>
 			</Node>
-			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
+				<Node name="{15fe6f78-267c-4ba1-9170-d85b7dca59e7}">
+					<Prp name="hash" type="I" value="1"/>
+				</Node>
+			</Node>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace">
 					<Node name="0">
@@ -433,6 +437,9 @@
 						<Node name="script"/>
 						<Node name="testedapps"/>
 					</Node>
+				</Node>
+				<Node name="aprendizado logs">
+					<Node name="calculatorautomation logs"/>
 				</Node>
 			</Node>
 		</Node>
