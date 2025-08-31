@@ -26,6 +26,18 @@
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
 				<Prp name="default project" type="S" value="{1948F7C5-3CC2-4EBA-8E5C-5B59C51A0D5F}"/>
 			</Node>
+			<Node name="{463280dc-d604-49c4-bc82-bb2fdb808361}">
+				<Prp name="relpath" type="S" value="TestProject3\TestProject3.mds.tcLS"/>
+			</Node>
+			<Node name="{5c7571ad-ea73-4060-a866-9bd39f70d4bd}">
+				<Prp name="relpath" type="S" value="TestProject4\TestProject4.mds.tcLS"/>
+			</Node>
+			<Node name="{6a818906-58f3-4dbd-a1e6-eb625fd23b58}">
+				<Prp name="relpath" type="S" value="TestProject2\TestProject2.mds.tcLS"/>
+			</Node>
+			<Node name="{8895ebc3-8f31-4a4a-93d9-d260e4ced823}">
+				<Prp name="relpath" type="S" value="CalcBDD\CalcBDD.mds.tcLS"/>
+			</Node>
 			<Node name="logs">
 				<Prp name="key" type="S" value="{31606326-2AE9-4B4F-9AEA-564094BFA599}"/>
 				<Prp name="relpath" type="S" value="Log"/>
